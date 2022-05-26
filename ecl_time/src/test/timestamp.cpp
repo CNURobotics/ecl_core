@@ -155,13 +155,13 @@ TEST(TimeStampTests,negatives) {
   EXPECT_EQ(-1, timestamps[3].sec());
   EXPECT_EQ(-700000000, timestamps[3].nsec());
 
-  std::vector<float> double_representations;
+  std::vector<double> double_representations;
   for ( const TimeStamp& timestamp : timestamps) {
     double_representations.push_back(timestamp);
   }
   if ( verbose ) {
     std::cout << "Operator double()\n  ";
-    for ( const float& d : double_representations ) {
+    for ( const double& d : double_representations ) {
       std::cout << d << " ";
     }
     std::cout << std::endl;

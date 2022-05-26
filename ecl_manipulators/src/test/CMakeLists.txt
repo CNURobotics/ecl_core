@@ -19,6 +19,5 @@ endmacro(ecl_add_manipulators_gtest)
 # GTests
 ###############################################################################
 
-ecl_add_manipulators_gtest(trajectories)
-ecl_add_manipulators_gtest(waypoints)
-
+#ecl_add_manipulators_gtest(trajectories)
+#ecl_add_manipulators_gtest(waypoints)

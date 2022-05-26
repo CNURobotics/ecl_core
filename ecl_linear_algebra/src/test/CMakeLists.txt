@@ -30,7 +30,6 @@ endmacro()
 # Google Tests
 ##############################################################################
 
-ecl_linear_algebra_add_gtest(plugin)
-ecl_linear_algebra_add_gtest(formatters)
-ecl_linear_algebra_add_gtest(interpolators)
-
+#ecl_linear_algebra_add_gtest(plugin)
+#ecl_linear_algebra_add_gtest(formatters)
+#ecl_linear_algebra_add_gtest(interpolators)

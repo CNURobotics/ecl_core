@@ -44,7 +44,7 @@ namespace concepts {
   template <class Model>
   void CONCEPT_CHECK_FAILED()
   {
-      ((Model*)0)->~Model();
+      //((Model*)0)->~Model();
   }
 
   /**
