@@ -2,8 +2,9 @@
 # Cmake
 ##############################################################################
 
-cmake_minimum_required(VERSION 3.5)
+cmake_minimum_required(VERSION 3.10)
 project(ecl_threads)
+add_compile_options(-Wno-overloaded-virtual)
 
 ##############################################################################
 # Thread Detection
@@ -51,7 +52,7 @@ add_subdirectory(src)
 # Exports
 ##############################################################################
 
-# Downstream CMake3 compatibility 
+# Downstream CMake3 compatibility
 ament_export_targets(HAS_LIBRARY_TARGET ${PROJECT_NAME})
 # Downstream CMake2 compatibility
 ament_export_include_directories(include)
